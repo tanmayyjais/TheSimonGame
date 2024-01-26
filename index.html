@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon: The 🧠 Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <p>Welcome to Simon: The 🧠 Challenge! Test your memory and concentration by repeating the sequence of colors. Pay attention to the pattern, and try to go as far as you can!</p>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <div id="instructions">
+    <p>Follow these instructions:</p>
+    <ul>
+      <li>Press the buttons to repeat the pattern.</li>
+      <li>Watch the sequence carefully and replicate it.</li>
+      <li>Each successful round increases the difficulty.</li>
+      <li>If you make a mistake, the game will end. Good luck!</li>
+    </ul>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
